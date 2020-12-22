@@ -1,0 +1,2 @@
+2020-12-21T10:38:33.612+0800	INFO	instance/beat.go:647	Home path: [/root/filebeat-7.8.0-linux-x86_64] Config path: [/root/filebeat-7.8.0-linux-x86_64] Data path: [/root/filebeat-7.8.0-linux-x86_64/data] Logs path: [/root/filebeat-7.8.0-linux-x86_64/logs]
+2020-12-21T10:38:33.612+0800	INFO	instance/beat.go:655	Beat ID: 5d6f759f-6bec-4667-b237-629016283d15

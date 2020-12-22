@@ -1,0 +1,401 @@
+{
+    "objects": [
+        {
+            "attributes": {
+                "description": "This dashboard provides an overview of user activity, alerts and resource in Azure cloud.",
+                "hits": 0,
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"filter\": []}"
+                },
+                "optionsJSON": "{\"useMargins\": true, \"hidePanelTitles\": false}",
+                "panelsJSON": "[{\"panelIndex\": \"6b6e7452-979c-4f78-afc2-cc58fcf105ff\", \"panelRefName\": \"panel_0\", \"embeddableConfig\": {\"title\": \"\"}, \"gridData\": {\"w\": 9, \"i\": \"6b6e7452-979c-4f78-afc2-cc58fcf105ff\", \"h\": 4, \"y\": 0, \"x\": 0}, \"version\": \"7.4.0\"}, {\"panelIndex\": \"042f777a-5e41-41e8-9d6e-d842473a8aed\", \"panelRefName\": \"panel_1\", \"embeddableConfig\": {\"title\": \"\"}, \"gridData\": {\"w\": 15, \"i\": \"042f777a-5e41-41e8-9d6e-d842473a8aed\", \"h\": 4, \"y\": 0, \"x\": 9}, \"version\": \"7.4.0\"}, {\"gridData\": {\"w\": 24, \"i\": \"1e73bca7-8569-41b5-830e-2f762602219a\", \"h\": 8, \"y\": 0, \"x\": 24}, \"panelRefName\": \"panel_2\", \"panelIndex\": \"1e73bca7-8569-41b5-830e-2f762602219a\", \"title\": \"Activity Level\", \"embeddableConfig\": {\"title\": \"Activity Level\"}, \"version\": \"7.4.0\"}, {\"panelIndex\": \"d9465e9f-49f1-4173-b1a4-fea9ee3120ab\", \"panelRefName\": \"panel_3\", \"embeddableConfig\": {\"title\": \"\"}, \"gridData\": {\"w\": 24, \"i\": \"d9465e9f-49f1-4173-b1a4-fea9ee3120ab\", \"h\": 6, \"y\": 4, \"x\": 0}, \"version\": \"7.4.0\"}, {\"gridData\": {\"w\": 24, \"i\": \"18ec1e20-202b-4a40-8d0d-22060ac3e23c\", \"h\": 7, \"y\": 8, \"x\": 24}, \"panelRefName\": \"panel_4\", \"panelIndex\": \"18ec1e20-202b-4a40-8d0d-22060ac3e23c\", \"title\": \"Access Requests\", \"embeddableConfig\": {\"title\": \"Access Requests\"}, \"version\": \"7.4.0\"}, {\"gridData\": {\"w\": 24, \"i\": \"d2bdec0f-dde1-4925-bf7e-afbc430c0eca\", \"h\": 11, \"y\": 10, \"x\": 0}, \"panelRefName\": \"panel_5\", \"panelIndex\": \"d2bdec0f-dde1-4925-bf7e-afbc430c0eca\", \"title\": \"Top Active Users\", \"embeddableConfig\": {\"title\": \"Top Active Users\"}, \"version\": \"7.4.0\"}, {\"gridData\": {\"w\": 12, \"i\": \"3bcc964d-6862-4fdd-9d82-f7510cc02162\", \"h\": 7, \"y\": 15, \"x\": 24}, \"panelRefName\": \"panel_6\", \"panelIndex\": \"3bcc964d-6862-4fdd-9d82-f7510cc02162\", \"title\": \"Alerts Overview\", \"embeddableConfig\": {\"title\": \"Alerts Overview\"}, \"version\": \"7.4.0\"}, {\"gridData\": {\"w\": 12, \"i\": \"74436614-9dfc-4c38-bc58-8cb76c348f37\", \"h\": 7, \"y\": 15, \"x\": 36}, \"panelRefName\": \"panel_7\", \"panelIndex\": \"74436614-9dfc-4c38-bc58-8cb76c348f37\", \"title\": \"Service Health\", \"embeddableConfig\": {\"title\": \"Service Health\"}, \"version\": \"7.4.0\"}, {\"gridData\": {\"w\": 24, \"i\": \"a6f36dfe-b6d6-4dca-b63c-81f5b4f7c8f8\", \"h\": 19, \"y\": 21, \"x\": 0}, \"panelRefName\": \"panel_8\", \"panelIndex\": \"a6f36dfe-b6d6-4dca-b63c-81f5b4f7c8f8\", \"title\": \"Top Resource Groups\", \"embeddableConfig\": {\"vis\": {\"legendOpen\": false}, \"title\": \"Top Resource Groups\"}, \"version\": \"7.4.0\"}, {\"panelIndex\": \"644c6151-fd05-4b2e-b18e-30843697e932\", \"panelRefName\": \"panel_9\", \"embeddableConfig\": {\"title\": \"\"}, \"gridData\": {\"w\": 12, \"i\": \"644c6151-fd05-4b2e-b18e-30843697e932\", \"h\": 6, \"y\": 22, \"x\": 24}, \"version\": \"7.4.0\"}, {\"panelIndex\": \"3d5ccff8-6576-4a1c-b3ee-363ae665906e\", \"panelRefName\": \"panel_10\", \"embeddableConfig\": {\"title\": \"\"}, \"gridData\": {\"w\": 12, \"i\": \"3d5ccff8-6576-4a1c-b3ee-363ae665906e\", \"h\": 6, \"y\": 22, \"x\": 36}, \"version\": \"7.4.0\"}, {\"panelIndex\": \"1a6dce1d-d039-4d18-87c7-1b700da676c2\", \"panelRefName\": \"panel_11\", \"version\": \"7.4.0\", \"gridData\": {\"w\": 12, \"i\": \"1a6dce1d-d039-4d18-87c7-1b700da676c2\", \"h\": 12, \"y\": 28, \"x\": 24}, \"embeddableConfig\": {\"vis\": {\"legendOpen\": true}, \"legendOpen\": false}}, {\"panelIndex\": \"8fddd3bb-c1e6-4533-b075-1ab7361b3af0\", \"panelRefName\": \"panel_12\", \"version\": \"7.4.0\", \"gridData\": {\"w\": 12, \"i\": \"8fddd3bb-c1e6-4533-b075-1ab7361b3af0\", \"h\": 12, \"y\": 28, \"x\": 36}, \"embeddableConfig\": {\"vis\": {\"legendOpen\": true}, \"legendOpen\": false}}]",
+                "timeRestore": false,
+                "title": "[Filebeat Azure] Cloud Overview",
+                "version": 1
+            },
+            "id": "41e84340-ec20-11e9-90ec-112a988266d5",
+            "migrationVersion": {
+                "dashboard": "7.3.0"
+            },
+            "references": [
+                {
+                    "id": "fe24ac90-f05a-11e9-90ec-112a988266d5",
+                    "name": "panel_0",
+                    "type": "visualization"
+                },
+                {
+                    "id": "097d74d0-f044-11e9-90ec-112a988266d5",
+                    "name": "panel_1",
+                    "type": "visualization"
+                },
+                {
+                    "id": "da67d650-ec14-11e9-90ec-112a988266d5",
+                    "name": "panel_2",
+                    "type": "visualization"
+                },
+                {
+                    "id": "e4c7f4b0-f045-11e9-90ec-112a988266d5",
+                    "name": "panel_3",
+                    "type": "visualization"
+                },
+                {
+                    "id": "709995e0-ec16-11e9-90ec-112a988266d5",
+                    "name": "panel_4",
+                    "type": "visualization"
+                },
+                {
+                    "id": "ffe22180-ec1c-11e9-90ec-112a988266d5",
+                    "name": "panel_5",
+                    "type": "visualization"
+                },
+                {
+                    "id": "52c2a4e0-ec1f-11e9-90ec-112a988266d5",
+                    "name": "panel_6",
+                    "type": "visualization"
+                },
+                {
+                    "id": "bc65e840-ec1e-11e9-90ec-112a988266d5",
+                    "name": "panel_7",
+                    "type": "visualization"
+                },
+                {
+                    "id": "71b62ca0-ec1a-11e9-90ec-112a988266d5",
+                    "name": "panel_8",
+                    "type": "visualization"
+                },
+                {
+                    "id": "f684a750-ec23-11e9-90ec-112a988266d5",
+                    "name": "panel_9",
+                    "type": "visualization"
+                },
+                {
+                    "id": "e37cd3d0-ec23-11e9-90ec-112a988266d5",
+                    "name": "panel_10",
+                    "type": "visualization"
+                },
+                {
+                    "id": "d91ce8d0-53e8-11ea-b1b7-7de801e1c297",
+                    "name": "panel_11",
+                    "type": "visualization"
+                },
+                {
+                    "id": "6db84660-53e9-11ea-b1b7-7de801e1c297",
+                    "name": "panel_12",
+                    "type": "visualization"
+                }
+            ],
+            "type": "dashboard",
+            "updated_at": "2019-10-18T15:20:07.860Z",
+            "version": "WzkyMzcsMV0="
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"filter\": []}"
+                },
+                "title": "Navigation Overview [Filebeat Azure]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"type\": \"markdown\", \"title\": \"Navigation Overview [Filebeat Azure]\", \"aggs\": [], \"params\": {\"fontSize\": 10, \"markdown\": \"### Azure Monitoring\\n\\n[**Overview**](#/dashboard/41e84340-ec20-11e9-90ec-112a988266d5) | [Users](#/dashboard/87095750-f05a-11e9-90ec-112a988266d5) | [Alerts](#/dashboard/0f559cc0-f0d5-11e9-90ec-112a988266d5) \", \"openLinksInNewTab\": false}}"
+            },
+            "id": "fe24ac90-f05a-11e9-90ec-112a988266d5",
+            "migrationVersion": {
+                "visualization": "7.3.1"
+            },
+            "references": [],
+            "type": "visualization",
+            "updated_at": "2019-10-17T11:56:32.153Z",
+            "version": "WzQ5MzQsMV0="
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"filter\": []}"
+                },
+                "title": "Subscriptions Filter [Filebeat Azure]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"type\": \"input_control_vis\", \"title\": \"Subscriptions Filter [Filebeat Azure]\", \"aggs\": [], \"params\": {\"pinFilters\": false, \"useTimeFilter\": false, \"updateFiltersOnChange\": true, \"controls\": [{\"fieldName\": \"azure.subscription_id\", \"id\": \"1571250866125\", \"type\": \"list\", \"options\": {\"multiselect\": true, \"size\": 5, \"order\": \"desc\", \"dynamicOptions\": true, \"type\": \"terms\"}, \"parent\": \"\", \"indexPatternRefName\": \"control_0_index_pattern\", \"label\": \"Subscription ID\"}]}}"
+            },
+            "id": "097d74d0-f044-11e9-90ec-112a988266d5",
+            "migrationVersion": {
+                "visualization": "7.3.1"
+            },
+            "references": [
+                {
+                    "id": "filebeat-*",
+                    "name": "control_0_index_pattern",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2019-10-16T18:37:41.917Z",
+            "version": "WzQ0MDEsMV0="
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"filter\": []}"
+                },
+                "title": "Activity Level [Filebeat Azure]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"type\": \"metrics\", \"title\": \"Activity Level [Filebeat Azure]\", \"aggs\": [], \"params\": {\"filter\": {\"query\": \"event.dataset :\\\"azure.activitylogs\\\" and event.category :\\\"Administrative\\\" \", \"language\": \"kuery\"}, \"isModelInvalid\": false, \"type\": \"timeseries\", \"interval\": \"\", \"axis_formatter\": \"number\", \"time_field\": \"\", \"show_legend\": 0, \"default_index_pattern\": \"metricbeat-*\", \"axis_scale\": \"normal\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"index_pattern\": \"filebeat-*\", \"default_timefield\": \"@timestamp\", \"show_grid\": 1, \"series\": [{\"fill\": 0.5, \"chart_type\": \"bar\", \"formatter\": \"number\", \"axis_position\": \"right\", \"color\": \"#68BC00\", \"stacked\": \"none\", \"metrics\": [{\"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"type\": \"count\"}], \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"split_mode\": \"everything\", \"separate_axis\": 0, \"point_size\": 1, \"line_width\": 1}], \"axis_position\": \"left\"}}"
+            },
+            "id": "da67d650-ec14-11e9-90ec-112a988266d5",
+            "migrationVersion": {
+                "visualization": "7.3.1"
+            },
+            "references": [],
+            "type": "visualization",
+            "updated_at": "2019-10-16T18:18:42.561Z",
+            "version": "WzQzODYsMV0="
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"query\": {\"query\": \"event.dataset : \\\"azure.activitylogs\\\" \", \"language\": \"kuery\"}, \"filter\": [], \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Activity Stats [Filebeat Azure]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"type\": \"metric\", \"title\": \"Activity Stats [Filebeat Azure]\", \"aggs\": [{\"schema\": \"metric\", \"type\": \"cardinality\", \"enabled\": true, \"id\": \"1\", \"params\": {\"field\": \"azure.resource.name\", \"customLabel\": \"Resources\"}}, {\"schema\": \"metric\", \"type\": \"cardinality\", \"enabled\": true, \"id\": \"2\", \"params\": {\"field\": \"azure.activitylogs.identity.claims_initiated_by_user.name\", \"customLabel\": \"Users\"}}, {\"schema\": \"metric\", \"type\": \"cardinality\", \"enabled\": true, \"id\": \"3\", \"params\": {\"field\": \"azure.resource.group\", \"customLabel\": \"Resource Groups\"}}, {\"schema\": \"metric\", \"type\": \"cardinality\", \"enabled\": true, \"id\": \"4\", \"params\": {\"field\": \"azure.subscription_id\", \"customLabel\": \"Subscriptions\"}}], \"params\": {\"addTooltip\": true, \"metric\": {\"useRanges\": false, \"style\": {\"fontSize\": 60, \"bgFill\": \"#000\", \"bgColor\": false, \"labelColor\": false, \"subText\": \"\"}, \"colorSchema\": \"Green to Red\", \"percentageMode\": false, \"colorsRange\": [{\"to\": 10000, \"from\": 0, \"type\": \"range\"}], \"metricColorMode\": \"None\", \"labels\": {\"show\": true}, \"invertColors\": false}, \"type\": \"metric\", \"addLegend\": false, \"dimensions\": {\"metrics\": [{\"accessor\": 0, \"format\": {\"params\": {}, \"id\": \"number\"}, \"type\": \"vis_dimension\"}, {\"accessor\": 1, \"format\": {\"params\": {}, \"id\": \"number\"}, \"type\": \"vis_dimension\"}, {\"accessor\": 2, \"format\": {\"params\": {}, \"id\": \"number\"}, \"type\": \"vis_dimension\"}]}}}"
+            },
+            "id": "e4c7f4b0-f045-11e9-90ec-112a988266d5",
+            "migrationVersion": {
+                "visualization": "7.3.1"
+            },
+            "references": [
+                {
+                    "id": "filebeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2019-10-18T09:14:38.537Z",
+            "version": "WzgwNzYsMV0="
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"filter\": []}"
+                },
+                "title": "Access Requests [Filebeat Azure]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"type\": \"metrics\", \"title\": \"Access Requests [Filebeat Azure]\", \"aggs\": [], \"params\": {\"filter\": {\"query\": \"event.dataset :\\\"azure.activitylogs\\\" and azure.activitylogs.operation_name : *LISTKEYS*\", \"language\": \"kuery\"}, \"isModelInvalid\": false, \"type\": \"timeseries\", \"interval\": \"\", \"axis_formatter\": \"number\", \"time_field\": \"\", \"show_legend\": 0, \"default_index_pattern\": \"metricbeat-*\", \"axis_scale\": \"normal\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"index_pattern\": \"filebeat-*\", \"default_timefield\": \"@timestamp\", \"show_grid\": 1, \"series\": [{\"fill\": \"0\", \"chart_type\": \"line\", \"filter\": {\"query\": \"event.outcome : \\\"success\\\" or event.outcome : \\\"Success\\\" \", \"language\": \"kuery\"}, \"formatter\": \"number\", \"axis_position\": \"right\", \"color\": \"#68BC00\", \"stacked\": \"none\", \"metrics\": [{\"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"type\": \"count\"}], \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"split_mode\": \"filter\", \"separate_axis\": 0, \"point_size\": 1, \"line_width\": \"2\", \"label\": \"Success\"}, {\"fill\": \"0\", \"chart_type\": \"line\", \"filter\": {\"query\": \"event.outcome : \\\"Failure\\\"  or event.outcome : \\\"failure\\\"  \", \"language\": \"kuery\"}, \"formatter\": \"number\", \"axis_position\": \"right\", \"color\": \"rgba(226,115,0,1)\", \"stacked\": \"none\", \"metrics\": [{\"id\": \"1b5f75a1-ec15-11e9-b6a7-21d19b63822a\", \"type\": \"count\"}], \"id\": \"1b5f75a0-ec15-11e9-b6a7-21d19b63822a\", \"split_mode\": \"filter\", \"separate_axis\": 0, \"point_size\": 1, \"line_width\": \"2\", \"label\": \"Failure\"}], \"axis_position\": \"left\"}}"
+            },
+            "id": "709995e0-ec16-11e9-90ec-112a988266d5",
+            "migrationVersion": {
+                "visualization": "7.3.1"
+            },
+            "references": [],
+            "type": "visualization",
+            "updated_at": "2019-10-11T11:01:13.406Z",
+            "version": "WzI3MzYsMV0="
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"filter\": [], \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "User Tag Cloud [Filebeat Azure]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"type\": \"tagcloud\", \"title\": \"User Tag Cloud [Filebeat Azure]\", \"aggs\": [{\"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\", \"params\": {}}, {\"schema\": \"segment\", \"type\": \"terms\", \"enabled\": true, \"id\": \"2\", \"params\": {\"field\": \"azure.activitylogs.identity.claims_initiated_by_user.name\", \"orderBy\": \"1\", \"order\": \"desc\", \"missingBucket\": false, \"missingBucketLabel\": \"Missing\", \"otherBucket\": false, \"size\": 10, \"otherBucketLabel\": \"Other\"}}], \"params\": {\"metric\": {\"accessor\": 1, \"format\": {\"params\": {}, \"id\": \"string\"}, \"type\": \"vis_dimension\"}, \"maxFontSize\": 32, \"scale\": \"linear\", \"orientation\": \"single\", \"showLabel\": true, \"bucket\": {\"accessor\": 0, \"format\": {\"params\": {\"missingBucketLabel\": \"Missing\", \"otherBucketLabel\": \"Other\", \"id\": \"string\"}, \"id\": \"terms\"}, \"type\": \"vis_dimension\"}, \"minFontSize\": 12}}"
+            },
+            "id": "ffe22180-ec1c-11e9-90ec-112a988266d5",
+            "migrationVersion": {
+                "visualization": "7.3.1"
+            },
+            "references": [
+                {
+                    "id": "filebeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2019-10-18T09:12:32.252Z",
+            "version": "WzgwNzEsMV0="
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"filter\": []}"
+                },
+                "title": "Alerts Overview [Filebeat Azure]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"type\": \"metrics\", \"title\": \"Alerts Overview [Filebeat Azure]\", \"aggs\": [], \"params\": {\"filter\": {\"query\": \"event.dataset :\\\"azure.activitylogs\\\" and event.category : \\\"Alert\\\"\", \"language\": \"kuery\"}, \"isModelInvalid\": false, \"type\": \"timeseries\", \"interval\": \"\", \"axis_formatter\": \"number\", \"time_field\": \"\", \"show_legend\": 0, \"default_index_pattern\": \"metricbeat-*\", \"axis_scale\": \"normal\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"index_pattern\": \"filebeat-*\", \"default_timefield\": \"@timestamp\", \"show_grid\": 1, \"series\": [{\"fill\": 0.5, \"chart_type\": \"line\", \"filter\": {\"query\": \"event.outcome: \\\"Activated\\\"\", \"language\": \"kuery\"}, \"formatter\": \"number\", \"axis_position\": \"right\", \"color\": \"rgba(252,220,0,1)\", \"stacked\": \"none\", \"metrics\": [{\"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"type\": \"count\"}], \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"split_mode\": \"filter\", \"separate_axis\": 0, \"point_size\": 1, \"line_width\": 1, \"hide_in_legend\": 0}, {\"fill\": 0.5, \"chart_type\": \"line\", \"filter\": {\"query\": \"event.outcome: \\\"Resolved\\\" or event.outcome: \\\"Succeeded\\\"\", \"language\": \"kuery\"}, \"formatter\": \"number\", \"axis_position\": \"right\", \"color\": \"#68BC00\", \"stacked\": \"none\", \"metrics\": [{\"id\": \"5a52f171-ec1e-11e9-b6a7-21d19b63822a\", \"type\": \"count\"}], \"id\": \"5a52f170-ec1e-11e9-b6a7-21d19b63822a\", \"split_mode\": \"filter\", \"separate_axis\": 0, \"point_size\": 1, \"line_width\": 1, \"hide_in_legend\": 0}], \"axis_position\": \"left\"}}"
+            },
+            "id": "52c2a4e0-ec1f-11e9-90ec-112a988266d5",
+            "migrationVersion": {
+                "visualization": "7.3.1"
+            },
+            "references": [],
+            "type": "visualization",
+            "updated_at": "2019-10-16T18:41:58.846Z",
+            "version": "WzQ0MDcsMV0="
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"filter\": []}"
+                },
+                "title": "Service Health Overview [Filebeat Azure]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"type\": \"metrics\", \"title\": \"Service Health Overview [Filebeat Azure]\", \"aggs\": [], \"params\": {\"filter\": {\"query\": \"event.dataset :\\\"azure.activitylogs\\\" and event.category : \\\"ServiceHealth\\\"\", \"language\": \"kuery\"}, \"isModelInvalid\": false, \"type\": \"timeseries\", \"interval\": \"\", \"axis_formatter\": \"number\", \"time_field\": \"\", \"show_legend\": 0, \"default_index_pattern\": \"metricbeat-*\", \"axis_scale\": \"normal\", \"id\": \"61ca57f0-469d-11e7-af02-69e470af7417\", \"index_pattern\": \"filebeat-*\", \"default_timefield\": \"@timestamp\", \"show_grid\": 1, \"series\": [{\"fill\": 0.5, \"chart_type\": \"line\", \"filter\": {\"query\": \"event.outcome: \\\"Active\\\"\", \"language\": \"kuery\"}, \"formatter\": \"number\", \"axis_position\": \"right\", \"color\": \"rgba(252,220,0,1)\", \"stacked\": \"none\", \"metrics\": [{\"id\": \"61ca57f2-469d-11e7-af02-69e470af7417\", \"type\": \"count\"}], \"id\": \"61ca57f1-469d-11e7-af02-69e470af7417\", \"split_mode\": \"filter\", \"separate_axis\": 0, \"point_size\": 1, \"line_width\": 1, \"hide_in_legend\": 0}, {\"fill\": 0.5, \"chart_type\": \"line\", \"filter\": {\"query\": \"event.outcome: \\\"Resolved\\\" \", \"language\": \"kuery\"}, \"formatter\": \"number\", \"axis_position\": \"right\", \"color\": \"#68BC00\", \"stacked\": \"none\", \"metrics\": [{\"id\": \"5a52f171-ec1e-11e9-b6a7-21d19b63822a\", \"type\": \"count\"}], \"id\": \"5a52f170-ec1e-11e9-b6a7-21d19b63822a\", \"split_mode\": \"filter\", \"separate_axis\": 0, \"point_size\": 1, \"line_width\": 1, \"hide_in_legend\": 0}], \"axis_position\": \"left\"}}"
+            },
+            "id": "bc65e840-ec1e-11e9-90ec-112a988266d5",
+            "migrationVersion": {
+                "visualization": "7.3.1"
+            },
+            "references": [],
+            "type": "visualization",
+            "updated_at": "2019-10-16T18:40:07.894Z",
+            "version": "WzQ0MDQsMV0="
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"filter\": [], \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Top Resource Groups [Filebeat Azure]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"type\": \"horizontal_bar\", \"title\": \"Top Resource Groups [Filebeat Azure]\", \"aggs\": [{\"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\", \"params\": {}}, {\"schema\": \"segment\", \"type\": \"terms\", \"enabled\": true, \"id\": \"2\", \"params\": {\"field\": \"azure.resource.group\", \"orderBy\": \"1\", \"size\": 10, \"order\": \"desc\", \"missingBucket\": false, \"customLabel\": \"Resource Groups\", \"otherBucket\": false, \"missingBucketLabel\": \"Missing\", \"otherBucketLabel\": \"Other\"}}], \"params\": {\"seriesParams\": [{\"data\": {\"id\": \"1\", \"label\": \"Count\"}, \"showCircles\": true, \"drawLinesBetweenPoints\": true, \"mode\": \"normal\", \"type\": \"histogram\", \"valueAxis\": \"ValueAxis-1\", \"show\": true}], \"legendPosition\": \"right\", \"dimensions\": {\"y\": [{\"accessor\": 1, \"aggType\": \"count\", \"format\": {\"id\": \"number\"}, \"params\": {}}], \"x\": {\"accessor\": 0, \"aggType\": \"terms\", \"format\": {\"params\": {\"missingBucketLabel\": \"Missing\", \"otherBucketLabel\": \"Other\", \"id\": \"string\"}, \"id\": \"terms\"}, \"params\": {}}}, \"addTooltip\": true, \"times\": [], \"categoryAxes\": [{\"id\": \"CategoryAxis-1\", \"scale\": {\"type\": \"linear\"}, \"type\": \"category\", \"position\": \"left\", \"labels\": {\"show\": true, \"filter\": false, \"truncate\": 200, \"rotate\": 0}, \"show\": true, \"title\": {}, \"style\": {}}], \"addLegend\": true, \"addTimeMarker\": false, \"valueAxes\": [{\"name\": \"LeftAxis-1\", \"id\": \"ValueAxis-1\", \"scale\": {\"mode\": \"normal\", \"type\": \"linear\"}, \"type\": \"value\", \"position\": \"bottom\", \"labels\": {\"show\": true, \"filter\": true, \"truncate\": 100, \"rotate\": 75}, \"show\": false, \"title\": {\"text\": \"Count\"}, \"style\": {}}], \"grid\": {\"categoryLines\": false}, \"labels\": {}, \"type\": \"histogram\"}}"
+            },
+            "id": "71b62ca0-ec1a-11e9-90ec-112a988266d5",
+            "migrationVersion": {
+                "visualization": "7.3.1"
+            },
+            "references": [
+                {
+                    "id": "filebeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2019-10-17T14:50:09.427Z",
+            "version": "WzYxMTUsMV0="
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"query\": {\"query\": \"event.dataset :\\\"azure.activitylogs\\\" and event.category : \\\"Alert\\\" \", \"language\": \"kuery\"}, \"filter\": [], \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Alerts Count [Filebeat Azure]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"type\": \"metric\", \"title\": \"Alerts Count [Filebeat Azure]\", \"aggs\": [{\"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\", \"params\": {\"customLabel\": \"Alerts\"}}, {\"schema\": \"group\", \"type\": \"filters\", \"enabled\": true, \"id\": \"2\", \"params\": {\"filters\": [{\"input\": {\"query\": \"event.outcome : \\\"Activated\\\"\", \"language\": \"kuery\"}, \"label\": \"Activated\"}, {\"input\": {\"query\": \"event.outcome : \\\"Resolved\\\"\", \"language\": \"kuery\"}, \"label\": \"Resolved\"}, {\"input\": {\"query\": \"event.outcome : \\\"Succeeded\\\"\", \"language\": \"kuery\"}, \"label\": \"Succeeded\"}]}}], \"params\": {\"addTooltip\": true, \"metric\": {\"useRanges\": false, \"style\": {\"fontSize\": 60, \"bgFill\": \"#000\", \"bgColor\": false, \"labelColor\": false, \"subText\": \"\"}, \"colorSchema\": \"Green to Red\", \"percentageMode\": false, \"colorsRange\": [{\"to\": 10000, \"from\": 0, \"type\": \"range\"}], \"metricColorMode\": \"None\", \"labels\": {\"show\": true}, \"invertColors\": false}, \"type\": \"metric\", \"addLegend\": false, \"dimensions\": {\"metrics\": [{\"accessor\": 1, \"format\": {\"params\": {}, \"id\": \"number\"}, \"type\": \"vis_dimension\"}], \"bucket\": {\"accessor\": 0, \"format\": {\"params\": {}, \"id\": \"string\"}, \"type\": \"vis_dimension\"}}}}"
+            },
+            "id": "f684a750-ec23-11e9-90ec-112a988266d5",
+            "migrationVersion": {
+                "visualization": "7.3.1"
+            },
+            "references": [
+                {
+                    "id": "filebeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2019-10-16T18:44:12.955Z",
+            "version": "WzQ0MTAsMV0="
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"query\": {\"query\": \"event.dataset :\\\"azure.activitylogs\\\" and event.category : \\\"ServiceHealth\\\" \", \"language\": \"kuery\"}, \"filter\": [], \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Service Health Count [Filebeat Azure]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"type\": \"metric\", \"title\": \"Service Health Count [Filebeat Azure]\", \"aggs\": [{\"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\", \"params\": {\"customLabel\": \"Incidents\"}}, {\"schema\": \"group\", \"type\": \"filters\", \"enabled\": true, \"id\": \"2\", \"params\": {\"filters\": [{\"input\": {\"query\": \"event.outcome : \\\"Active\\\"\", \"language\": \"kuery\"}, \"label\": \"Active\"}, {\"input\": {\"query\": \"event.outcome : \\\"Resolved\\\"\", \"language\": \"kuery\"}, \"label\": \"Resolved\"}]}}], \"params\": {\"addTooltip\": true, \"metric\": {\"useRanges\": false, \"style\": {\"fontSize\": 60, \"bgFill\": \"#000\", \"bgColor\": false, \"labelColor\": false, \"subText\": \"\"}, \"colorSchema\": \"Green to Red\", \"percentageMode\": false, \"colorsRange\": [{\"to\": 10000, \"from\": 0, \"type\": \"range\"}], \"metricColorMode\": \"None\", \"labels\": {\"show\": true}, \"invertColors\": false}, \"type\": \"metric\", \"addLegend\": false, \"dimensions\": {\"metrics\": [{\"accessor\": 1, \"format\": {\"params\": {}, \"id\": \"number\"}, \"type\": \"vis_dimension\"}], \"bucket\": {\"accessor\": 0, \"format\": {\"params\": {}, \"id\": \"string\"}, \"type\": \"vis_dimension\"}}}}"
+            },
+            "id": "e37cd3d0-ec23-11e9-90ec-112a988266d5",
+            "migrationVersion": {
+                "visualization": "7.3.1"
+            },
+            "references": [
+                {
+                    "id": "filebeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2019-10-16T18:45:10.848Z",
+            "version": "WzQ0MTEsMV0="
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"query\": {\"query\": \"event.dataset :\\\"azure.activitylogs\\\" \", \"language\": \"kuery\"}, \"filter\": [], \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Resource Creations [Filebeat Azure]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"title\": \"Resource Creations [Filebeat Azure]\", \"params\": {\"seriesParams\": [{\"data\": {\"id\": \"1\", \"label\": \"Count\"}, \"showCircles\": true, \"drawLinesBetweenPoints\": true, \"mode\": \"stacked\", \"type\": \"histogram\", \"valueAxis\": \"ValueAxis-1\", \"lineWidth\": 2, \"show\": true}], \"legendPosition\": \"right\", \"dimensions\": {\"series\": [{\"accessor\": 1, \"aggType\": \"terms\", \"format\": {\"params\": {\"missingBucketLabel\": \"Missing\", \"otherBucketLabel\": \"Other\", \"id\": \"string\"}, \"id\": \"terms\"}, \"params\": {}, \"label\": \"Creations\"}], \"y\": [{\"accessor\": 2, \"aggType\": \"count\", \"format\": {\"id\": \"number\"}, \"params\": {}, \"label\": \"Count\"}], \"x\": {\"accessor\": 0, \"aggType\": \"terms\", \"format\": {\"params\": {\"missingBucketLabel\": \"Missing\", \"otherBucketLabel\": \"Other\", \"id\": \"string\"}, \"id\": \"terms\"}, \"params\": {}, \"label\": \"Resource type\"}}, \"addTooltip\": true, \"times\": [], \"categoryAxes\": [{\"id\": \"CategoryAxis-1\", \"scale\": {\"type\": \"linear\"}, \"type\": \"category\", \"position\": \"left\", \"labels\": {\"show\": true, \"filter\": false, \"truncate\": 200, \"rotate\": 0}, \"show\": true, \"title\": {}, \"style\": {}}], \"addLegend\": true, \"type\": \"histogram\", \"addTimeMarker\": false, \"valueAxes\": [{\"name\": \"LeftAxis-1\", \"id\": \"ValueAxis-1\", \"scale\": {\"mode\": \"normal\", \"type\": \"linear\"}, \"type\": \"value\", \"position\": \"bottom\", \"labels\": {\"show\": true, \"filter\": true, \"truncate\": 100, \"rotate\": 75}, \"show\": false, \"title\": {\"text\": \"Count\"}, \"style\": {}}], \"grid\": {\"valueAxis\": \"\", \"categoryLines\": false}, \"labels\": {}, \"thresholdLine\": {\"color\": \"#E7664C\", \"show\": false, \"style\": \"full\", \"value\": 10, \"width\": 1}}, \"aggs\": [{\"schema\": \"metric\", \"params\": {}, \"enabled\": true, \"id\": \"1\", \"type\": \"count\"}, {\"schema\": \"segment\", \"params\": {\"field\": \"azure.resource.provider\", \"orderBy\": \"1\", \"order\": \"desc\", \"missingBucket\": false, \"missingBucketLabel\": \"Missing\", \"otherBucket\": false, \"size\": 15, \"otherBucketLabel\": \"Other\", \"customLabel\": \"Resource type\"}, \"enabled\": true, \"id\": \"2\", \"type\": \"terms\"}, {\"schema\": \"group\", \"params\": {\"field\": \"azure.activitylogs.identity.authorization.action\", \"orderBy\": \"1\", \"order\": \"desc\", \"missingBucket\": false, \"missingBucketLabel\": \"Missing\", \"include\": \".*write\", \"otherBucket\": false, \"size\": 15, \"otherBucketLabel\": \"Other\", \"customLabel\": \"Creations\"}, \"enabled\": true, \"id\": \"4\", \"type\": \"terms\"}], \"type\": \"horizontal_bar\"}"
+            },
+            "id": "d91ce8d0-53e8-11ea-b1b7-7de801e1c297",
+            "migrationVersion": {
+                "visualization": "7.3.1"
+            },
+            "references": [
+                {
+                    "id": "filebeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-20T13:57:45.235Z",
+            "version": "WzU4OSwxXQ=="
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"query\": {\"query\": \"event.dataset :\\\"azure.activitylogs\\\" \", \"language\": \"kuery\"}, \"filter\": [], \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Resource Deletions [Filebeat Azure]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"title\": \"Resource Deletions [Filebeat Azure]\", \"params\": {\"seriesParams\": [{\"data\": {\"id\": \"1\", \"label\": \"Count\"}, \"showCircles\": true, \"drawLinesBetweenPoints\": true, \"mode\": \"normal\", \"type\": \"histogram\", \"valueAxis\": \"ValueAxis-1\", \"lineWidth\": 2, \"show\": true}], \"legendPosition\": \"right\", \"type\": \"histogram\", \"addTooltip\": true, \"times\": [], \"categoryAxes\": [{\"scale\": {\"type\": \"linear\"}, \"style\": {}, \"id\": \"CategoryAxis-1\", \"type\": \"category\", \"position\": \"left\", \"labels\": {\"show\": true, \"filter\": false, \"truncate\": 200, \"rotate\": 0}, \"show\": true, \"title\": {}}], \"addTimeMarker\": false, \"addLegend\": true, \"valueAxes\": [{\"scale\": {\"mode\": \"normal\", \"type\": \"linear\"}, \"name\": \"LeftAxis-1\", \"style\": {}, \"id\": \"ValueAxis-1\", \"type\": \"value\", \"position\": \"bottom\", \"labels\": {\"show\": false, \"filter\": true, \"truncate\": 100, \"rotate\": 75}, \"show\": true, \"title\": {\"text\": \"Count\"}}], \"grid\": {\"categoryLines\": false}, \"labels\": {}, \"thresholdLine\": {\"color\": \"#E7664C\", \"show\": false, \"width\": 1, \"value\": 10, \"style\": \"full\"}, \"dimensions\": {\"series\": [{\"accessor\": 1, \"label\": \"Deletions\", \"aggType\": \"terms\", \"format\": {\"params\": {\"missingBucketLabel\": \"Missing\", \"otherBucketLabel\": \"Other\", \"id\": \"string\"}, \"id\": \"terms\"}, \"params\": {}}], \"y\": [{\"accessor\": 2, \"label\": \"Count\", \"aggType\": \"count\", \"format\": {\"id\": \"number\"}, \"params\": {}}], \"x\": {\"accessor\": 0, \"label\": \"azure.resource.provider: Descending\", \"aggType\": \"terms\", \"format\": {\"params\": {\"missingBucketLabel\": \"Missing\", \"otherBucketLabel\": \"Other\", \"id\": \"string\"}, \"id\": \"terms\"}, \"params\": {}}}}, \"aggs\": [{\"schema\": \"metric\", \"params\": {}, \"enabled\": true, \"id\": \"1\", \"type\": \"count\"}, {\"schema\": \"segment\", \"params\": {\"field\": \"azure.resource.provider\", \"orderBy\": \"1\", \"order\": \"desc\", \"missingBucket\": false, \"missingBucketLabel\": \"Missing\", \"otherBucket\": false, \"size\": 15, \"otherBucketLabel\": \"Other\", \"customLabel\": \"Resource type\"}, \"enabled\": true, \"id\": \"2\", \"type\": \"terms\"}, {\"schema\": \"group\", \"params\": {\"field\": \"azure.activitylogs.identity.authorization.action\", \"orderBy\": \"1\", \"order\": \"desc\", \"missingBucket\": false, \"missingBucketLabel\": \"Missing\", \"include\": \".*delete\", \"otherBucket\": false, \"size\": 15, \"otherBucketLabel\": \"Other\", \"customLabel\": \"Deletions\"}, \"enabled\": true, \"id\": \"3\", \"type\": \"terms\"}], \"type\": \"horizontal_bar\"}"
+            },
+            "id": "6db84660-53e9-11ea-b1b7-7de801e1c297",
+            "migrationVersion": {
+                "visualization": "7.3.1"
+            },
+            "references": [
+                {
+                    "id": "filebeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-20T14:01:02.150Z",
+            "version": "WzU5MiwxXQ=="
+        }
+    ],
+    "version": "7.4.0"
+}

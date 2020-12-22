@@ -1,0 +1,40 @@
+version: '3'
+services:
+  elasticsearch:                    # 服务名称
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.8.0      # 使用的镜像
+    container_name: elasticsearch7.8.0   # 容器名称
+    restart: always                 # 失败自动重启策略
+    environment:
+      - node.name=node-218                   # 节点名称，集群模式下每个节点名称唯一
+      - network.publish_host=192.168.1.218  # 用于集群内各机器间通信,其他机器访问本机器的es服务
+      - network.host=0.0.0.0                # 设置绑定的ip地址，可以是ipv4或ipv6的，默认为0.0.0.0，
+      - discovery.seed_hosts=192.168.1.218,192.168.1.219,192.168.1.217         # es7.x 之后新增的配置，写入候选主节点的设备地址，在开启服务后可以被选为主节点
+      - cluster.initial_master_nodes=192.168.1.218,192.168.1.219,192.168.1.217  # es7.x 之后新增的配置，初始化一个新的集群时需要此配置来选举master
+      - cluster.name=es-cluster     # 集群名称，相同名称为一个集群
+      - bootstrap.memory_lock=true  # 内存交换的选项，官网建议为true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"    # 设置内存
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml  # 将容器中es的配置文件映射到本地，设置跨域， 否则head插件无法连接该节点
+      - ./elasticsearch/data:/usr/share/elasticsearch/data
+      - ./elasticsearch/logs:/usr/share/elasticsearch/logs
+      - ./elastic-certificates.p12:/usr/share/elasticsearch/config/elastic-certificates.p12
+    ports:
+      - 9200:9200    # http端口
+      - 9300:9300    # es节点直接交互的端口，非http   
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.8.0
+    container_name: kibana
+    environment:
+      - elasticsearch.hosts=http://192.168.1.218:9200               # 设置连接的es节点
+    volumes:
+      - ./kibana/kibana.yml:/usr/share/kibana/config/kibana.yml
+    hostname: kibana
+    depends_on:
+      - elasticsearch7.8.0                                               # 依赖es服务，会先启动es容器在启动kibana
+    restart: always
+    ports:
+      - 5601:5601
